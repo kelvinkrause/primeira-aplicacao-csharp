@@ -1,24 +1,26 @@
 using System;
 
 public class CacaAoNumeroSecreto {
-    public void JogoCacaAoNumeroSecreto(int aleatorio){
+    public void JogoCacaAoNumeroSecreto(int numeroSecreto){
         
-        Console.WriteLine(aleatorio);
-        int numero;
+        //Console.WriteLine(aleatorio);
+        int chute;
 
         do {
-            Console.Write("Tente adivinhar o numero aleatório ou insira -1 para sair: ");
-            numero = int.Parse(Console.ReadLine()!);
+            Console.Write("Tente adivinhar o numero aleatório de 0 a 100 ou insira -1 para sair: ");
+            chute = int.Parse(Console.ReadLine()!);
 
-            if(numero != -1){
-                if(numero == aleatorio){
+            if(chute != -1){
+                if(chute == numeroSecreto){
                     Console.WriteLine("Parabéns você acertou!");
                     break;
-                } else {
-                    Console.WriteLine("Não é esse numero, tente novamente!");
+                } else if(chute > numeroSecreto){
+                    Console.WriteLine("O numero é maior.");
+                } else if(chute < numeroSecreto){
+                    Console.WriteLine("O numero é menor.");
                 }
             }
 
-        } while(numero != -1);
+        } while(chute != -1);
     }
 }
