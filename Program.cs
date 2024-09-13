@@ -5,11 +5,15 @@ class Program{
     private static void Main(string[] args)
     {
 
-        Exercicio exercicios = new Exercicio();
+        int aleatorio = new Random().Next(0, 100);
+        new CacaAoNumeroSecreto().JogoCacaAoNumeroSecreto(aleatorio);
+
+
+        //Exercicio exercicios = new Exercicio();
         //exercicios.Exercicio1();
         //exercicios.Exercicio2();
         //exercicios.Exercicio3();
-        exercicios.Exercicio4();
+        //exercicios.Exercicio4();
 
         //Screen Sound
         string mensagemDeBoasVindas = @"
