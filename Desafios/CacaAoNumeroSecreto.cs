@@ -7,7 +7,7 @@ public class CacaAoNumeroSecreto {
         int chute;
 
         do {
-            Console.Write("Tente adivinhar o numero aleatório de 0 a 100 ou insira -1 para sair: ");
+            Console.Write("Tente adivinhar o numero aleatório de 1 a 100 ou insira 0 para sair: ");
             chute = int.Parse(Console.ReadLine()!);
 
             if(chute != -1){
@@ -21,6 +21,8 @@ public class CacaAoNumeroSecreto {
                 }
             }
 
-        } while(chute != -1);
+            Console.WriteLine("O jogo acabou. Parabéns você acertou o numero secreto");
+
+        } while(chute != 0);
     }
 }

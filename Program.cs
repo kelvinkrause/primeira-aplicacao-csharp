@@ -5,7 +5,7 @@ class Program{
     private static void Main(string[] args)
     {
 
-        int aleatorio = new Random().Next(0, 100);
+        int aleatorio = new Random().Next(1, 101);
         new CacaAoNumeroSecreto().JogoCacaAoNumeroSecreto(aleatorio);
 
 
