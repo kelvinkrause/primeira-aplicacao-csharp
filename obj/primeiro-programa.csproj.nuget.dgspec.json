@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "F:\\primeiro-programa\\primeiro-programa.csproj": {}
+    "C:\\Users\\cimol\\Source\\Repos\\primeira-aplicacao-csharp\\primeiro-programa.csproj": {}
   },
   "projects": {
-    "F:\\primeiro-programa\\primeiro-programa.csproj": {
+    "C:\\Users\\cimol\\Source\\Repos\\primeira-aplicacao-csharp\\primeiro-programa.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\primeiro-programa\\primeiro-programa.csproj",
+        "projectUniqueName": "C:\\Users\\cimol\\Source\\Repos\\primeira-aplicacao-csharp\\primeiro-programa.csproj",
         "projectName": "primeiro-programa",
-        "projectPath": "F:\\primeiro-programa\\primeiro-programa.csproj",
-        "packagesPath": "E:\\Users\\kelvin.krause\\.nuget\\packages\\",
-        "outputPath": "F:\\primeiro-programa\\obj\\",
+        "projectPath": "C:\\Users\\cimol\\Source\\Repos\\primeira-aplicacao-csharp\\primeiro-programa.csproj",
+        "packagesPath": "C:\\Users\\cimol\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cimol\\Source\\Repos\\primeira-aplicacao-csharp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "E:\\Users\\kelvin.krause\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\cimol\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -43,8 +45,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -53,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.424\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
