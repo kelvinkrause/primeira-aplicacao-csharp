@@ -1,5 +1,6 @@
 ﻿using primeiro_programa.Controller;
-using primeiro_programa.Exercicios.ListasELoopsCSharp;
+using primeiro_programa.Exercicios;
+using primeiro_programa.Exercicios.DicionarioEAvaliacaoDeBandas;
 
 class Program
 {
@@ -12,8 +13,12 @@ class Program
         //new TiposEFuncoesNoCSharp();
         //new ListasELoopNoCSharp();
 
-        new MenuOpcoes();
 
+
+        //new MenuOpcoes(); //Screen Sound
+
+
+        new DicionarioEAvaliacaoDeBandas();
 
         var notasAlunos = new Dictionary<string, Dictionary<string, List<int>>>
         {
